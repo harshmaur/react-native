@@ -1,18 +1,19 @@
 {
-    "name": "weekdays",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "start": "node node_modules/react-native/local-cli/cli.js start"
-    },
-    "dependencies": {
-        "react": "^0.14.8",
-        "react-native": "^0.25.1"
-    },
-    "devDependencies": {
-        "eslint": "2.8.0",
-        "eslint-plugin-import": "1.6.0",
-        "eslint-plugin-react": "5.0.1",
-        "eslint-watch": "2.1.11"
-    }
+  "name": "weekdays",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "react": "^0.14.8",
+    "react-native": "^0.25.1"
+  },
+  "devDependencies": {
+    "eslint": "2.8.0",
+    "eslint-plugin-import": "1.6.0",
+    "eslint-plugin-react": "5.0.1",
+    "eslint-watch": "2.1.11"
+  }
 }

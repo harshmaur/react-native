@@ -1,14 +1,24 @@
 // Create a react Component
 
 import React from 'react';
-import {AppRegistry, Text, View, StyleSheet} from 'react-native';
+import {AppRegistry, View, StyleSheet} from 'react-native';
+import DayItem from './src/day-item';
+import Moment from 'moment';
+
+const DAYS = ['Sunday', 'Monday', 'Tuesday'];
 
 const Weekdays = () => {
     return (
         <View style={styles.container}>
             <Text>
-                Hello
+                {Moment().format('ddd')}
             </Text>
+            {
+                DAYS.map((day) => {
+                    return <DayItem key={day} day={day}/>;
+                })
+            }
+
         </View>
     );
 };
